@@ -1,0 +1,5 @@
+f = open("demofile.txt", "w")
+n=input("Enter the content: ")
+x=f.write(n)
+f=open("demofile.txt","r")
+print(f.read())
